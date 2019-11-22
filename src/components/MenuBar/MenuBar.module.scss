@@ -1,0 +1,56 @@
+.MenuBar {
+    height:64px;
+    display:flex;
+    border-radius: 0!important;
+    // position: fixed;
+    width:100vw;
+    z-index:999;
+}
+.MenuBar > ul {
+    display: flex!important;
+    justify-content: space-between;
+    flex-grow: 1;
+    order:2;
+}
+.MenuBar > ul > li {
+    height:64px;
+}
+.MenuBar > ul > li > a {
+    height:64px;
+}
+.grow {
+    flex-grow: 1,
+}
+.menuButtonRight {
+    margin-left:auto!important;
+}
+.icon:first-child {
+    z-index:999;
+}
+.icon {
+    font-size: 2em!important;
+    line-height: 44px;
+    margin:0!important;
+}
+.MenuBar > ul > li > a:last-child {
+    display:flex!important;
+    flex-direction: row;
+}
+.MenuBar > ul > li:last-child > a > span:first-child {
+    order: 2;
+    margin-left: 0.5em;
+    margin-right: 0;
+}
+.bannerLogo {
+    position: absolute;
+    // left:-7px!important;
+    width:252px;
+    height:64px;
+}
+.MenuBar > div {
+    padding:0!important;
+    position: relative;
+}
+.invertBtn {
+    margin-right:48px;
+}

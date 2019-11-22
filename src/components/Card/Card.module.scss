@@ -1,0 +1,45 @@
+.card {
+    width:200px;
+    height:200px;
+    line-height:240px;
+    transition: height 400ms ease-out;
+    transition: width 400ms ease-out;
+    
+    @media screen and (max-width: 359px) {
+        width: 60px;
+        height:60px;
+        line-height:90px;
+    }
+    @media screen and (min-width: 360px) {
+        width: 80px;
+        height:80px;
+        line-height:100px;
+    }
+    @media screen and (min-width: 399px) {
+        width: 90px;
+        height:90px;
+        line-height:120px;
+    }
+    @media screen and (min-width: 419px) {
+        width: 100px;
+        height:100px;
+        line-height:130px;
+    }
+    @media screen and (min-width: 800px) {
+        width: 200px;
+        height:200px;
+        line-height:240px;
+    }
+}
+// @media only screen and (max-width: 600px) {
+//     body {
+//       background-color: lightblue;
+//     }
+//   }
+.front {
+    cursor:pointer;
+}
+.cardContainer {
+    flex: 1 0 21%;
+    margin:12px;
+}

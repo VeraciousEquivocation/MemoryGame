@@ -1,0 +1,14 @@
+.mainContent {
+    width:100%;
+    // flex-direction: wrap;
+    // justify: space-between;
+}
+.Card {
+    // flex: 1 0 auto;
+    text-align: center;
+    // width: 150px;
+    height:150px;
+    @media screen and (max-width: 599px) {
+        margin-top:12px;
+    }
+}
